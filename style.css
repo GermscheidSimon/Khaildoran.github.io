@@ -1,1 +1,129 @@
+body {
+background-color: #29538a;
+}
+
+/* page container to maintain formating, and background colors */
+#page_outline {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	max-width: 1200px;
+}
+
+
+/* header container */
+#headline {
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	
+	background-color: #29538a;
+	background-size:100% 100%;
+}
+
+/* headline name font, margin, and text controls*/
+#name {
+	color: white;
+	margin-top: 100px;
+	margin-left: 30px;
+	font-size: 75px;
+	float: left;
+	text-align: left;
+	
+}
+
+/* contact information font and margin control*/
+#Contact {
+	font-size: 30px;
+	color: white;
+	margin-top: 20px;
+	float: right;
+}
+
+#contact _info_header {
+	font-size: 40px;
+	color: white;
+}
+
+
+/* flexbox spacing divider */
+#headlinespacing {
+	clear: both;
+	width: 30%;
+}
+
+
+/* content text wraper */
+#content_page_container {
+	
+
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/* ill conceived variable definition for about me section... controlls skills and expirince header*/
+h4 {
+	font-size: 20px;
+	color: #3a77c7;
+}
+
+/* used for job description summary */
+p {
+	font-size: 22px;
+}
+
+/* Job title class for font control and formating */
+.work_title {
+font-size: 20px;
+color: #3a77c7;
+}
+
+/* content section heading formating */
+.content_header {
+font-size: 50px;
+color: #29538a;
+font
+}
+
+/* job responsibilties bullet points */
+.job_responsibilities {
+font-size: 21px;
+}
+
+/* work location */
+.work_title {
+	
+}
+
+/* worklogo */
+.work_logo {
+float: right;
+
+}
+
+.title_year_content_flex {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	
+}
+.work_year {
+
+font-size: 24px;
+}
+
+/* flexbox spacing divider for content job container*/
+.contentheadlinespacing {
+	clear: both;
+	width: 15%;
+}
+
+.job_container {
+	display: flex;
+	flex-direction: row;
+	
+	width: 1100px;
+}
 
